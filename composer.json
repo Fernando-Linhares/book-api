@@ -46,6 +46,13 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
+        ],
+        "install-book-rest":[
+            "composer install",
+            "composer run post-root-package-install",
+            "composer run post-create-project-cmd",
+            "composer run post-create-project-cmd",
+            "@php artisan db:seed"
         ]
     },
     "extra": {
