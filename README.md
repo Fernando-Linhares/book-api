@@ -25,7 +25,7 @@ List Books
     {
         "id": 1,
         "name": "Lord of Rings",
-        "description": "This book is a big book",
+        "resume": "This book is a big book",
         "category": {
             "id": 2,
             "name": "Jaunita Rempel",
@@ -52,7 +52,7 @@ Find Book
     "data": {
         "id": 1,
         "name": "Lord of Rings",
-        "description": "This book is a big book",
+        "resume": "This book is a big book",
         "category": {
             "id": 2,
             "name": "Jaunita Rempel",
@@ -74,7 +74,7 @@ Body Request
 | Form Field | Value|
 |  --------  |  -------  |
 | ```name``` | ```No country for old man ....``` |
-| ```description``` | ```The cherif ...``` |
+| ```resume``` | ```The cherif ...``` |
 | ```catetory_id``` | ```1``` |
 
 ####
@@ -86,7 +86,7 @@ Body Request
     "data": {
         "id": 1,
         "name": "Lord of Rings",
-        "description": "This book is a big book",
+        "resume": "This book is a big book",
         "category": {
             "id": 2,
             "name": "Jaunita Rempel",
@@ -108,7 +108,7 @@ Body Request
 | Form Field | Value|
 |  --------  |  -------  |
 | ```name``` | ```No country for old man ....``` |
-| ```description``` | ```The cherif ...``` |
+| ```resume``` | ```The cherif ...``` |
 | ```catetory_id``` | ```1``` |
 
 ####
@@ -120,7 +120,7 @@ Body Request
     "data": {
         "id": 1,
         "name": "Lord of Rings",
-        "description": "This book is a big book",
+        "resume": "This book is a big book",
         "category": {
             "id": 2,
             "name": "Jaunita Rempel",
@@ -145,7 +145,7 @@ Delete Book
     "data":{
         "id": 1,
         "name": "Lord of Rings",
-        "description": "This book is a big book",
+        "resume": "This book is a big book",
         "category": {
             "id": 2,
             "name": "Jaunita Rempel",
