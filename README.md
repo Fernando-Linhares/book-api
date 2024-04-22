@@ -15,7 +15,7 @@ List Books
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| GET | ```http://localhost:8000/api/book`` | none |
+| GET | ```http://localhost:8000/api/book``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -43,7 +43,7 @@ Find Book
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| GET | ```http://localhost:8000/api/book/1`` | none |
+| GET | ```http://localhost:8000/api/book/1``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -68,7 +68,7 @@ Store Book
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| POST | ```http://localhost:8000/api/book`` | Form |
+| POST | ```http://localhost:8000/api/book``` | Form |
 ####
 
 Body Request
@@ -102,7 +102,7 @@ Update Book
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| PUT, PATCH | ```http://localhost:8000/api/book/2`` | Form |
+| PUT, PATCH | ```http://localhost:8000/api/book/2``` | Form |
 ####
 
 Body Request
@@ -136,7 +136,7 @@ Delete Book
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| DELETE | ```http://localhost:8000/api/book/1`` | none |
+| DELETE | ```http://localhost:8000/api/book/1``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -162,7 +162,7 @@ List Categories
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| GET | ```http://localhost:8000/api/category`` | none |
+| GET | ```http://localhost:8000/api/category``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -185,7 +185,7 @@ Find Category
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| GET | ```http://localhost:8000/api/category/1`` | none |
+| GET | ```http://localhost:8000/api/category/1``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -206,7 +206,7 @@ Store Category
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| POST | ```http://localhost:8000/api/category`` | Form |
+| POST | ```http://localhost:8000/api/category``` | Form |
 ####
 
 Body Request
@@ -236,7 +236,7 @@ Update Category
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| PUT, PATCH | ```http://localhost:8000/api/category/3`` | Form |
+| PUT, PATCH | ```http://localhost:8000/api/category/3``` | Form |
 ####
 
 Body Request
@@ -265,7 +265,7 @@ Delete Category
 
 | Method | Uri | Body |
 |  --------  |  -------  |  ------- |
-| DELETE | ```http://localhost:8000/api/category/2`` | none |
+| DELETE | ```http://localhost:8000/api/category/2``` | none |
 ####
 | Response | 200 |
 | ------ | ---- |
@@ -283,6 +283,6 @@ Delete Category
 
 ### Dependencies
 
-Laravel 11.x
-PHP 8.3.x
-sqlite3
+```Laravel 11.x```,
+```PHP 8.3.x```,
+```sqlite3```
