@@ -6,7 +6,6 @@ Book's Api Rest for applications that can use this format of books as a product
 
 composer run install-book-rest
 
-
 ## Routes
 
 #### Books Routes
